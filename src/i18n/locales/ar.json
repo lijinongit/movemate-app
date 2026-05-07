@@ -1,0 +1,203 @@
+{
+  "common": {
+    "continue": "متابعة",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "next": "التالي",
+    "submit": "إرسال",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "retry": "إعادة المحاولة",
+    "close": "إغلاق",
+    "ok": "موافق",
+    "save": "حفظ",
+    "skip": "تخطي"
+  },
+  "welcome": {
+    "headline": "ابحث عن مدربك المثالي",
+    "subheading": "مدربون معتمدون في الوقت الفعلي",
+    "customerCard": "أنا أبحث عن مدرب",
+    "customerDescription": "تصفح واحجز الجلسات",
+    "trainerCard": "أنا مدرب",
+    "trainerDescription": "شارك خبرتك",
+    "studioCard": "أمتلك استوديو",
+    "studioDescription": "أدر مساحتك",
+    "studioComingSoon": "بوابة الويب قريبًا",
+    "loginLink": "هل لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول"
+  },
+  "roleSelect": {
+    "title": "ماذا تريد أن تفعل؟",
+    "customer": "أنا أبحث عن مدرب",
+    "trainer": "أنا مدرب",
+    "studio": "أمتلك استوديو"
+  },
+  "register": {
+    "customer": {
+      "title": "إنشاء حسابك",
+      "step": "الخطوة {{current}} من {{total}}"
+    },
+    "trainer": {
+      "title": "تسجيل المدرب",
+      "step": "الخطوة {{current}} من {{total}}"
+    },
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "عنوان البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "language": "اللغة المفضلة",
+    "signInMethod": "كيف تريد تسجيل الدخول؟",
+    "emailOption": "البريد الإلكتروني",
+    "phoneOption": "الهاتف",
+    "passwordRequirements": "8 أحرف على الأقل، حرف واحد كبير، رقم واحد، رمز واحد",
+    "agreeTerms": "أوافق على شروط الخدمة",
+    "errors": {
+      "firstNameRequired": "يرجى إدخال اسمك الأول",
+      "lastNameRequired": "يرجى إدخال اسم عائلتك",
+      "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+      "invalidPhone": "يرجى إدخال رقم هاتف صحيح",
+      "passwordTooWeak": "يجب أن تفي كلمة المرور بجميع المتطلبات",
+      "passwordsMismatch": "كلمات المرور غير متطابقة",
+      "emailExists": "هذا البريد الإلكتروني مسجل بالفعل",
+      "phoneExists": "رقم الهاتف هذا مسجل بالفعل",
+      "termsRequired": "يجب أن تقبل شروط الخدمة"
+    }
+  },
+  "otp": {
+    "title": "تحقق من {{method}}",
+    "subtitle": "أرسلنا رمزًا إلى",
+    "enterCode": "أدخل الرمز",
+    "didNotReceive": "لم تتلقَّ الرمز؟",
+    "resend": "إعادة إرسال",
+    "remaining": "متبقي",
+    "verifyButton": "تحقق و استمرار",
+    "errors": {
+      "invalidCode": "رمز غير صحيح. حاول مجددًا.",
+      "expired": "انتهت صلاحية الرمز. يرجى طلب رمز جديد.",
+      "maxAttempts": "عدد محاولات كثير جدًا. حاول لاحقًا."
+    }
+  },
+  "emiratesId": {
+    "title": "أضف هويتك الإماراتية",
+    "subtitle": "نحتاج هذا للتحقق من هويتك وضمان السلامة",
+    "uploadPrompt": "اضغط لتحميل صورة بطاقتك",
+    "format": "JPG أو PNG، الحد الأقصى 5 ميجابايت",
+    "tips": "نصائح للصورة الواضحة",
+    "tip1": "ابق البطاقة مسطحة وموضحة",
+    "tip2": "تأكد من قراءة النص",
+    "tip3": "تجنب الظلال والانعكاسات",
+    "uploading": "جاري التحميل... {{percent}}%",
+    "statusText": "سيتم التحقق من هويتك خلال 2-4 ساعات.",
+    "success": "تم تحميل الهوية بنجاح",
+    "errors": {
+      "invalidFormat": "يرجى تحميل صورة JPG أو PNG",
+      "fileTooLarge": "الملف كبير جدًا. الحد الأقصى 5 ميجابايت.",
+      "uploadFailed": "فشل التحميل. يرجى التحقق من اتصالك والمحاولة مجددًا.",
+      "blurryImage": "جودة الصورة منخفضة جدًا. يرجى التقاط صورة أوضح."
+    }
+  },
+  "ageCheck": {
+    "title": "التحقق من العمر",
+    "question": "هل تبلغ من العمر 18 سنة أو أكثر؟",
+    "explanation": "نحتاج إلى معرفة ذلك لضمان اتباع قواعد السلامة المحلية.",
+    "yes": "نعم، أنا بعمر 18 سنة أو أكثر",
+    "no": "لا، أنا أقل من 18 سنة"
+  },
+  "parentalConsent": {
+    "title": "التحقق من ولي الأمر",
+    "headline": "يجب على والدك أو وصيك التحقق من هويته.",
+    "parentEmail": "ما هو بريد والدك أو وصيك الإلكتروني؟",
+    "sendLink": "إرسال رابط التحقق",
+    "or": "أو",
+    "shareLink": "شارك هذا الرابط مع والدك",
+    "shareVia": "شارك عبر",
+    "whatsapp": "WhatsApp",
+    "email": "البريد الإلكتروني",
+    "errors": {
+      "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صحيح"
+    }
+  },
+  "verificationPending": {
+    "title": "تم تقديم الطلب",
+    "message": "نحن نراجع طلبك. عادةً ما يستغرق هذا ساعتين إلى أربع ساعات.",
+    "timeline": "خط الحالة",
+    "documentsReceived": "تم استقبال المستندات",
+    "underReview": "قيد المراجعة",
+    "decisionSent": "تم إرسال القرار",
+    "checkStatus": "تحقق من الحالة مرة أخرى",
+    "support": "أسئلة؟ اتصل بنا: support@movemate.app"
+  },
+  "home": {
+    "greeting": "مرحبا بك في Movemate، {{name}}!",
+    "verified": "تم التحقق من حسابك. أنت جاهز للحجز.",
+    "startExploring": "ابدأ الاستكشاف",
+    "whatHappensNext": "ما الذي سيحدث بعد ذلك؟",
+    "step1": "ابحث عن مدرب",
+    "step2": "احجز جلسة",
+    "step3": "تدرب وتحسن",
+    "viewProfile": "عرض الملف الشخصي"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "languageName": "العربية",
+    "logout": "تسجيل الخروج",
+    "logoutConfirm": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "logoutTitle": "تأكيد تسجيل الخروج",
+    "rtlChangeWarning": "تغيير اللغة يتطلب إعادة تشغيل التطبيق",
+    "reload": "إعادة تحميل التطبيق"
+  },
+  "trainer": {
+    "profile": {
+      "title": "أكمل ملفك الشخصي",
+      "hourlyRate": "ما هو سعرك بالساعة؟ (د.إ)",
+      "ratePrefilled": "200"
+    },
+    "certifications": {
+      "title": "الشهادات",
+      "subtitle": "ما هي التخصصات التي تدرسها؟ (اختر واحدًا على الأقل، حتى 6)",
+      "personalTraining": "التدريب الشخصي",
+      "dance": "الرقص / الحركة",
+      "swimming": "السباحة",
+      "football": "كرة القدم",
+      "cricket": "الكريكيت",
+      "yoga": "اليوغا والعافية",
+      "uploadCert": "اختر ملف",
+      "expires": "تنتهي الصلاحية",
+      "valid": "صحيح"
+    },
+    "references": {
+      "title": "المراجع",
+      "subtitle": "سنتواصل مع مراجعك للتأكد من خبرتك.",
+      "reference": "المرجع {{number}}",
+      "fullName": "الاسم الكامل",
+      "email": "عنوان البريد الإلكتروني",
+      "relationship": "العلاقة",
+      "gymManager": "مدير الصالة",
+      "currentClient": "عميل حالي",
+      "previousClient": "عميل سابق",
+      "coach": "مدرب",
+      "studioOwner": "صاحب استوديو",
+      "other": "آخر",
+      "nextButton": "التالي"
+    },
+    "introVideo": {
+      "title": "قدم نفسك",
+      "subtitle": "اسجل فيديو تعريفي قصير (30–60 ثانية، اختياري)",
+      "motivation": "يحب العملاء رؤيتك! شارك:",
+      "style": "أسلوب تدريبك",
+      "background": "خلفيتك",
+      "love": "ما تحب فيه التدريب",
+      "startRecording": "اضغط لبدء التسجيل",
+      "uploadExisting": "رفع فيديو موجود",
+      "submitApplication": "إرسال الطلب"
+    },
+    "status": {
+      "applicationSubmitted": "تم تقديم الطلب",
+      "reviewing": "نحن نراجع طلبك",
+      "timeTaken": "عادةً ما يستغرق هذا ساعتين إلى أربع ساعات"
+    }
+  }
+}

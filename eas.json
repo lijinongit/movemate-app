@@ -1,0 +1,58 @@
+{
+  "cli": {
+    "version": ">= 5.0.0",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug",
+        "withoutCredentials": true
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": false
+      },
+      "env": {
+        "NODE_ENV": "staging",
+        "REACT_APP_API_URL": "https://staging-api.movemate.ae",
+        "REACT_APP_WS_URL": "wss://staging-api.movemate.ae"
+      }
+    },
+    "production": {
+      "distribution": "store",
+      "android": {
+        "buildType": "apk",
+        "withCredentials": true
+      },
+      "ios": {},
+      "env": {
+        "NODE_ENV": "production",
+        "REACT_APP_API_URL": "https://api.movemate.ae",
+        "REACT_APP_WS_URL": "wss://api.movemate.ae"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "$APPLE_ID",
+        "appleTeamId": "$APPLE_TEAM_ID",
+        "appleAppSpecificPassword": "$APPLE_APP_SPECIFIC_PASSWORD"
+      },
+      "android": {
+        "serviceAccount": "$ANDROID_SERVICE_ACCOUNT_JSON_PATH",
+        "track": "production"
+      }
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "common": {
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "ok": "OK",
+    "save": "Save",
+    "skip": "Skip"
+  },
+  "welcome": {
+    "headline": "Find Your Perfect Coach",
+    "subheading": "Real-time, certified trainers",
+    "customerCard": "I'm Looking for a Coach",
+    "customerDescription": "Browse and book sessions",
+    "trainerCard": "I'm a Trainer",
+    "trainerDescription": "Share your expertise",
+    "studioCard": "I Own a Studio",
+    "studioDescription": "Manage your space",
+    "studioComingSoon": "Web portal coming soon",
+    "loginLink": "Already have an account?",
+    "login": "Log in"
+  },
+  "roleSelect": {
+    "title": "What would you like to do?",
+    "customer": "I'm Looking for a Coach",
+    "trainer": "I'm a Trainer",
+    "studio": "I Own a Studio"
+  },
+  "register": {
+    "customer": {
+      "title": "Create Your Account",
+      "step": "Step {{current}} of {{total}}"
+    },
+    "trainer": {
+      "title": "Trainer Registration",
+      "step": "Step {{current}} of {{total}}"
+    },
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "language": "Preferred Language",
+    "signInMethod": "How do you want to sign in?",
+    "emailOption": "Email",
+    "phoneOption": "Phone",
+    "passwordRequirements": "Min. 8 characters, 1 uppercase, 1 number, 1 symbol",
+    "agreeTerms": "I agree to Terms of Service",
+    "errors": {
+      "firstNameRequired": "Please enter your first name",
+      "lastNameRequired": "Please enter your last name",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "passwordTooWeak": "Password must meet all requirements",
+      "passwordsMismatch": "Passwords do not match",
+      "emailExists": "This email is already registered",
+      "phoneExists": "This phone number is already registered",
+      "termsRequired": "You must accept the Terms of Service"
+    }
+  },
+  "otp": {
+    "title": "Verify Your {{method}}",
+    "subtitle": "We sent a code to",
+    "enterCode": "Enter the code",
+    "didNotReceive": "Didn't receive the code?",
+    "resend": "Resend",
+    "remaining": "remaining",
+    "verifyButton": "Verify & Continue",
+    "errors": {
+      "invalidCode": "Invalid code. Please try again.",
+      "expired": "Code expired. Please request a new one.",
+      "maxAttempts": "Too many attempts. Please try again later."
+    }
+  },
+  "emiratesId": {
+    "title": "Add Your Emirates ID",
+    "subtitle": "We need this to verify your identity and keep everyone safe",
+    "uploadPrompt": "Tap to upload a photo of your Emirates ID",
+    "format": "JPG or PNG, max 5MB",
+    "tips": "Tips for a clear photo",
+    "tip1": "Keep the ID flat and well-lit",
+    "tip2": "Ensure text is readable",
+    "tip3": "Avoid shadows or reflections",
+    "uploading": "Uploading... {{percent}}%",
+    "statusText": "Your identity will be verified within 2–4 hours.",
+    "success": "ID uploaded successfully",
+    "errors": {
+      "invalidFormat": "Please upload a JPG or PNG image",
+      "fileTooLarge": "File is too large. Max 5MB.",
+      "uploadFailed": "Upload failed. Please check your connection and try again.",
+      "blurryImage": "Image quality is too low. Please take a clearer photo."
+    }
+  },
+  "ageCheck": {
+    "title": "Age Verification",
+    "question": "Are you 18 or older?",
+    "explanation": "We need to know to ensure we follow local safety rules.",
+    "yes": "Yes, I'm 18 or older",
+    "no": "No, I'm under 18"
+  },
+  "parentalConsent": {
+    "title": "Parent/Guardian Verification",
+    "headline": "Your parent or guardian must verify their identity.",
+    "parentEmail": "What is your parent/guardian's email address?",
+    "sendLink": "Send Verification Link",
+    "or": "OR",
+    "shareLink": "Share this link with your parent",
+    "shareVia": "Share via",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "errors": {
+      "invalidEmail": "Please enter a valid email address"
+    }
+  },
+  "verificationPending": {
+    "title": "Application Submitted",
+    "message": "We're reviewing your application. This usually takes 2–4 hours.",
+    "timeline": "Status Timeline",
+    "documentsReceived": "Documents Received",
+    "underReview": "Under Review",
+    "decisionSent": "Decision Sent",
+    "checkStatus": "Check Status Again",
+    "support": "Questions? Contact us: support@movemate.app"
+  },
+  "home": {
+    "greeting": "Welcome, {{name}}!",
+    "verified": "Your account is verified. You're all set to book.",
+    "startExploring": "Start Exploring",
+    "whatHappensNext": "What happens next?",
+    "step1": "Find a trainer",
+    "step2": "Book a session",
+    "step3": "Train and improve",
+    "viewProfile": "View Profile"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageName": "English",
+    "logout": "Logout",
+    "logoutConfirm": "Are you sure you want to logout?",
+    "logoutTitle": "Confirm Logout",
+    "rtlChangeWarning": "Language change requires app reload",
+    "reload": "Reload App"
+  },
+  "trainer": {
+    "profile": {
+      "title": "Complete Your Profile",
+      "hourlyRate": "What's your hourly rate? (AED)",
+      "ratePrefilled": "200"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "subtitle": "Which disciplines do you teach? (Select at least one, up to 6)",
+      "personalTraining": "Personal Training",
+      "dance": "Dance / Movement",
+      "swimming": "Swimming",
+      "football": "Football (Soccer)",
+      "cricket": "Cricket",
+      "yoga": "Yoga & Wellness",
+      "uploadCert": "Choose File",
+      "expires": "Expires",
+      "valid": "Valid"
+    },
+    "references": {
+      "title": "References",
+      "subtitle": "We'll reach out to your references to confirm your experience.",
+      "reference": "Reference {{number}}",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "relationship": "Relationship",
+      "gymManager": "Gym Manager",
+      "currentClient": "Current Client",
+      "previousClient": "Previous Client",
+      "coach": "Coach",
+      "studioOwner": "Studio Owner",
+      "other": "Other",
+      "nextButton": "Next"
+    },
+    "introVideo": {
+      "title": "Introduce Yourself",
+      "subtitle": "Record a short intro video (30–60 seconds, optional)",
+      "motivation": "Customers love seeing you! Share:",
+      "style": "Your training style",
+      "background": "Your background",
+      "love": "What you love about coaching",
+      "startRecording": "Tap to Start Recording",
+      "uploadExisting": "Upload Existing Video",
+      "submitApplication": "Submit Application"
+    },
+    "status": {
+      "applicationSubmitted": "Application Submitted",
+      "reviewing": "We're reviewing your application",
+      "timeTaken": "This usually takes 2–4 hours"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Movemate",
+    "slug": "movemate-app",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": false,
+      "bundleIdentifier": "com.movemate.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.movemate.app"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to upload your Emirates ID.",
+          "cameraPermission": "The app needs camera access to record your intro video."
+        }
+      ]
+    ],
+    "extra": {
+      "apiBaseUrl": "http://localhost:3001/api/v1",
+      "mockApi": true
+    }
+  }
+}
